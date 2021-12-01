@@ -37,9 +37,14 @@
     padding: 12px 30px;
     background-color: #F3603B;
     border-radius: 50px;
+    border: none;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+.boton-header-pc:active {
+    background-color: rgba(243, 107, 72, 0.5);
 }
 
 .hamburguer {
@@ -105,9 +110,14 @@
     padding: 12px 30px;
     background-color: #F3603B;
     border-radius: 50px;
+    border: none;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+.botones:active {
+    background-color: rgba(243, 107, 72, 0.5);
 }
 
 .seccion-principal {
@@ -282,6 +292,10 @@
     color: #F3603B;
 }
 
+#boton-footer-top:active {
+    color: rgba(243, 96, 59, 0.5);
+}
+
 .footer-bottom {
     display: flex;
     flex-flow: column;
@@ -308,6 +322,8 @@
 .input {
     padding: 12px 30px;
     border-radius: 50px;
+    border: none;
+    outline: none;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
